@@ -22,6 +22,6 @@ use [Data Marts]
   and i.prod_num = p.product_num
 
 
-  alter table [Data Marts].[dbo].[warehouse_fact_table_2]
+  alter table [Data Marts].[dbo].[warehouse_fact_table]
   add primary key([warehouse ID],[order number],[product number])
 
